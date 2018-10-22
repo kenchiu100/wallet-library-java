@@ -5,12 +5,12 @@ virtual wallet to track users transaction account. https://en.wikipedia.org/wiki
 
 ## At a high level the library needs to solve the following business needs
 
-* Track a userâ€™s account balance
+* Track a user’s account balance
 * Manage account transactions in the form of debits (withdrawals) and credits (deposits).
 * Allow a user to transfer money to another user/account.
 * Keep a history of last N transactions.
 
-## Understand the classes
+### Understand the classes
 
 * Each user has one wallet. 
 * Each wallet has one or multiple accounts.
@@ -23,7 +23,7 @@ virtual wallet to track users transaction account. https://en.wikipedia.org/wiki
 * Maximum number of transactions is Integer.MAX_VALUE, 2^31 -1
 * Maximum account balance is Double.MAX_VALUE;
 
-## The tests
+### The tests
 
 The tests are created with Junit Testing in test file. Each test class focuses on testing one class in src file.
 
