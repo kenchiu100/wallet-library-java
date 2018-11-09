@@ -5,7 +5,7 @@ virtual wallet to track users transaction account. https://en.wikipedia.org/wiki
 
 ## At a high level the library needs to solve the following business needs
 
-* Track a user’s account balance
+* Track a userâ€™s account balance
 * Manage account transactions in the form of debits (withdrawals) and credits (deposits).
 * Allow a user to transfer money to another user/account.
 * Keep a history of last N transactions.
@@ -30,4 +30,4 @@ The tests are created with Junit Testing in test file. Each test class focuses o
 ### Author
 * **Ken Chiu**
 ### Acknowledgments
-* This project is assigned by ** Upgrade **
+* This project was assigned by ** Upgrade **
